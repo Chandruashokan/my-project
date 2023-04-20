@@ -1,0 +1,15 @@
+.grid1 {
+  /* display: grid;
+  grid-template-columns: repeat(6, 1fr); */
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0 !important;
+  justify-content: end;
+}
